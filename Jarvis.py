@@ -11,8 +11,8 @@ import site
 from googlesearch import search
 from time import sleep
 
-Email = #put ur email here
-Pass = #put ur password here
+Email = #put Your email here
+Pass = #put Your password here
 Coumputer_name = #put you coumputer name here
 Dad = #put your dad's email here
 Mom = #put your Mom's email here
