@@ -57,7 +57,7 @@ def takeCommand():
     except Exception as e: 
         print(e)    
         print("I diden't get that") 
-        #speak("Sorry I did not get thet") 
+        speak("Sorry I did not get thet") 
         return "None"
     return query
 
@@ -111,18 +111,7 @@ if __name__ == "__main__":
             wishMe()    
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
-            speak(f"Sir, the time is {strTime}")
-
-        elif 'type' in query:
-            speak('Typing...')
-            speak("What should I Type?")
-            command = takeCommand()
-            print(command)
-            keyboard.write(command,delay=0.35)
-            if 'enter' or "Enter" in command:
-                keyboard.press('Enter')
-            if "backspace" or "Backspace" in command:
-                keyboard.press('Backspace')        
+            speak(f"Sir, the time is {strTime}")        
         elif 'open code' in query:
             codePath = "C:Users\\"+Computer_name+"\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
