@@ -1,9 +1,7 @@
 # Jarvis
 A virtual AI that does your bidding 
 
-Before you read this click Raw at the top of this right here.
-
-![image](https://user-images.githubusercontent.com/79598448/109718882-789ae180-7b6d-11eb-8160-27eae4258c34.png)
+Dont forget to fill out the stuff after the imports
 
 In your command prompt type: pip install pyttsx3 wikipedia webbrowser pyautogui smtplib keyboard site googlesearch pipwin os datetime speech_recognition
 
@@ -16,4 +14,10 @@ Everything it can do:
     open ... : opens whatever you tell it to in google
     the time : tells you the time
     wish me : it wishes you depending on the time of day
+    email to dad : sends a email to your dad
+    email to mom : sends a email to your Mom
+    email to myself : sends a email to you
+    pause : Pauses the AI
+    Quit : quits Jarvis
+    
     
