@@ -3,7 +3,7 @@ A virtual AI that does your bidding
 
 Before you read this click Raw at the top of this right here.
 
-
+![image](https://user-images.githubusercontent.com/79598448/109718882-789ae180-7b6d-11eb-8160-27eae4258c34.png)
 
 In your command prompt type: pip install pyttsx3 wikipedia webbrowser pyautogui smtplib keyboard site googlesearch pipwin os datetime speech_recognition
 
